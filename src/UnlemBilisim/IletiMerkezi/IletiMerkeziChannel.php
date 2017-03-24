@@ -7,6 +7,7 @@
  */
 namespace UnlemBilisim\IletiMerkezi;
 
+use SoapBox\Formatter\Formatter;
 use Illuminate\Events\Dispatcher;
 use Illuminate\Notifications\Notification;
 
@@ -75,7 +76,7 @@ final class IletiMerkeziChannel
                 <sender>' . $this->title . '</sender>
         
                 <message>
-                    <text>'.$message.'</text>
+                    <text>'.$message->message.'</text>
                     <receipents>
                         <number> ' . $tokens . '</number>
                     </receipents>
