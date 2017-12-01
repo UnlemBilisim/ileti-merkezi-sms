@@ -25,7 +25,7 @@ composer require unlembilisim/ileti-merkezi-sms
 
 
 ```php
-UnlemBilisim\IletiMerkeziServiceProvider::class,
+UnlemBilisim\IletiMerkezi\IletiMerkeziServiceProvider::class,
 ``` 
 
 Ekleyip. Notification nesnesi olarak kullanabilirsiniz.
